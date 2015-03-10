@@ -11,6 +11,14 @@
 		137ACAEC1AAE8513006689AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACAEB1AAE8513006689AC /* ViewController.swift */; };
 		137ACAF11AAE8513006689AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137ACAF01AAE8513006689AC /* Images.xcassets */; };
 		137ACB001AAE8513006689AC /* ALAdvancedScrollingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACAFF1AAE8513006689AC /* ALAdvancedScrollingTests.swift */; };
+		137ACB0B1AAE8AA9006689AC /* AdvancedScrollingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACB0A1AAE8AA9006689AC /* AdvancedScrollingViewController.swift */; };
+		137ACB0C1AAE8AA9006689AC /* AdvancedScrollingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACB0A1AAE8AA9006689AC /* AdvancedScrollingViewController.swift */; };
+		137ACB0E1AAE8AE2006689AC /* AdvancedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACB0D1AAE8AE2006689AC /* AdvancedTableViewController.swift */; };
+		137ACB0F1AAE8AE2006689AC /* AdvancedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACB0D1AAE8AE2006689AC /* AdvancedTableViewController.swift */; };
+		137ACB111AAE8F41006689AC /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACB101AAE8F41006689AC /* RootTabBarController.swift */; };
+		137ACB121AAE8F41006689AC /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACB101AAE8F41006689AC /* RootTabBarController.swift */; };
+		137ACB131AAE9040006689AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACAEB1AAE8513006689AC /* ViewController.swift */; };
+		137ACB141AAE9044006689AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ACAE91AAE8513006689AC /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,9 @@
 		137ACAF91AAE8513006689AC /* ALAdvancedScrollingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALAdvancedScrollingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		137ACAFE1AAE8513006689AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		137ACAFF1AAE8513006689AC /* ALAdvancedScrollingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALAdvancedScrollingTests.swift; sourceTree = "<group>"; };
+		137ACB0A1AAE8AA9006689AC /* AdvancedScrollingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedScrollingViewController.swift; sourceTree = "<group>"; };
+		137ACB0D1AAE8AE2006689AC /* AdvancedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedTableViewController.swift; sourceTree = "<group>"; };
+		137ACB101AAE8F41006689AC /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,7 @@
 				137ACAEB1AAE8513006689AC /* ViewController.swift */,
 				137ACAF01AAE8513006689AC /* Images.xcassets */,
 				137ACAE71AAE8513006689AC /* Supporting Files */,
+				137ACB101AAE8F41006689AC /* RootTabBarController.swift */,
 			);
 			path = ALAdvancedScrolling;
 			sourceTree = "<group>";
@@ -110,6 +122,8 @@
 		137ACB091AAE8524006689AC /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				137ACB0A1AAE8AA9006689AC /* AdvancedScrollingViewController.swift */,
+				137ACB0D1AAE8AE2006689AC /* AdvancedTableViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -213,7 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				137ACAEC1AAE8513006689AC /* ViewController.swift in Sources */,
+				137ACB111AAE8F41006689AC /* RootTabBarController.swift in Sources */,
 				137ACAEA1AAE8513006689AC /* AppDelegate.swift in Sources */,
+				137ACB0B1AAE8AA9006689AC /* AdvancedScrollingViewController.swift in Sources */,
+				137ACB0E1AAE8AE2006689AC /* AdvancedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137ACB141AAE9044006689AC /* AppDelegate.swift in Sources */,
+				137ACB131AAE9040006689AC /* ViewController.swift in Sources */,
+				137ACB0F1AAE8AE2006689AC /* AdvancedTableViewController.swift in Sources */,
+				137ACB121AAE8F41006689AC /* RootTabBarController.swift in Sources */,
+				137ACB0C1AAE8AA9006689AC /* AdvancedScrollingViewController.swift in Sources */,
 				137ACB001AAE8513006689AC /* ALAdvancedScrollingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
